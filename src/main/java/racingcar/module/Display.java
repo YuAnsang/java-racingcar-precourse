@@ -27,7 +27,7 @@ public class Display {
 
     public void printWinners(List<String> winners) {
         String joining = String.join(", ", winners);
-        System.out.format("최종 우승자는 %s 입니다.", joining);
+        System.out.format("최종 우승자: %s", joining);
     }
 
     public void printError(Exception e) {
